@@ -26,7 +26,7 @@ driver = webdriver.Chrome(service=service)
 links = [
     'https://twitter.com/Mr_Derivatives',
     'https://twitter.com/warrior_0719',
-    # 'https://twitter.com/ChartingProdigy',
+    #'https://twitter.com/ChartingProdigy',
     # 'https://twitter.com/allstarcharts',
     # 'https://twitter.com/yuriymatso',
     # 'https://twitter.com/TriggerTrades',
@@ -37,30 +37,30 @@ links = [
         ]
 
 # count the appearence
-symbol_counts = {}
 
+
+time_interval = 120
 try:
-    for link in links:
-        
-        
-        
-        
-        # hashing symbols store
-        unique_hashes = set()
-        position = 0
+    while True:
             
-        last_scroll_height = driver.execute_script("return document.body.scrollHeight")
-        try:
+        symbol_counts = {}
+        
+        for link in links:
+            
+            
+            # hashing symbols store
+            unique_hashes = set()
+            position = 0
                 
+            last_scroll_height = driver.execute_script("return document.body.scrollHeight")
+
             # adding the Links
             driver.get(link)
 
 
-            WebDriverWait(driver, 20).until(
+            WebDriverWait(driver, 30).until(
                 EC.presence_of_element_located((By.TAG_NAME, 'body'))
                 )
-            
-            
             
             while True:
                 # parse the page using beautifulsoup
@@ -69,7 +69,6 @@ try:
                 # cashtag pattern
                 tricker = re.compile(r'\$[A-Za-z]{3,4}')
 
-
                 # Find all text matching the pattern
                 symbols = soup.find_all(string=tricker)
 
@@ -77,8 +76,8 @@ try:
                 # for _ in range(1): 
                 driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.PAGE_DOWN)
             
-                time.sleep(2)
-                
+                time.sleep(2.5)
+                        
                 for symbol in symbols:
                     symbol_string = symbol.upper()
                     position += 1
@@ -90,8 +89,8 @@ try:
 
                 driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.PAGE_DOWN)
             
-                time.sleep(2)
-                
+                time.sleep(2.5)
+                        
                 new_scroll_height = driver.execute_script("return document.body.scrollHeight")
             
                 if new_scroll_height == last_scroll_height:
@@ -100,23 +99,21 @@ try:
                 else:
                 # If it has, update the last scroll height for the next iteration
                     last_scroll_height = new_scroll_height
-                
-                
-                
-                
-        except Exception as e:
-            logging.error(f'an error occured: {e}')
+                        
+                        
+                    
+    # print the output
+
+        for symbol, count in symbol_counts.items():
+            print(f'{symbol} was mentioned \"{count}\" times, in the last {time_interval // 60} minutes.')
+            # print(symbol)
+        
+        print(f'Waiting for {time_interval // 60} minutes before starting the next session.')
+        time.sleep(time_interval)
 
 
-
-finally: 
-
-# print the output
-
-    for symbol, count in symbol_counts.items():
-        print(f'{symbol}: {count}')
-        # print(symbol)
     
-    # quit the driver
     
+except:  
+    # quit the driver  
     driver.quit()

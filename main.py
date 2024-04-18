@@ -26,8 +26,8 @@ driver = webdriver.Chrome(service=service)
 links = [
     'https://twitter.com/Mr_Derivatives',
     'https://twitter.com/warrior_0719',
-    # 'https://twitter.com/ChartingProdigy',
-    # 'https://twitter.com/allstarcharts',
+    'https://twitter.com/ChartingProdigy',
+    'https://twitter.com/allstarcharts',
     # 'https://twitter.com/yuriymatso',
     # 'https://twitter.com/TriggerTrades',
     # 'https://twitter.com/AdamMancini4',
@@ -114,7 +114,7 @@ finally:
 # print the output
 
     for symbol, count in symbol_counts.items():
-        print(f'{symbol}: {count}')
+        print(f'{symbol} was mentioned \"{count}\" times, in the last minutes.')
         # print(symbol)
     
     # quit the driver
