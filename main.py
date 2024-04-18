@@ -60,7 +60,7 @@ try:
             # adding the Links
             driver.get(link)
 
-            WebDriverWait(driver, 30).until(
+            WebDriverWait(driver, 40).until(
                 EC.presence_of_element_located((By.TAG_NAME, 'body'))
                 )
             
@@ -76,7 +76,7 @@ try:
 
                 # Scroll down function 
                 driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.PAGE_DOWN)
-                time.sleep(2.5)
+                time.sleep(3)
                 
                 # loop through symbols to hash them and increment based on appearance        
                 for symbol in symbols:
@@ -90,7 +90,7 @@ try:
 
                 # keep scrolling
                 driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.PAGE_DOWN)
-                time.sleep(2.5)
+                time.sleep(3)
                         
                 new_scroll_height = driver.execute_script("return document.body.scrollHeight")
             

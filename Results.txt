@@ -1,0 +1,208 @@
+$LULU was mentioned "2" times
+$TSLA was mentioned "76" times
+$AAPL was mentioned "35" times
+$MSFT was mentioned "26" times
+$GOOG was mentioned "26" times
+$AMZN was mentioned "26" times
+$META was mentioned "25" times
+$CEI was mentioned "3" times
+$NVDA was mentioned "94" times
+$NFLX was mentioned "14" times
+$SPY was mentioned "96" times
+$VIX was mentioned "40" times
+$AMD was mentioned "9" times
+$SMCI was mentioned "8" times
+$ANF was mentioned "4" times
+$WISH was mentioned "5" times
+$SPX was mentioned "414" times
+$SIVB was mentioned "4" times
+$BTC was mentioned "7" times
+$TLT was mentioned "8" times
+$QQQ was mentioned "25" times
+$ROKU was mentioned "3" times
+$PLTR was mentioned "8" times
+$SNAP was mentioned "5" times
+$BABA was mentioned "7" times
+$PYPL was mentioned "4" times
+$DIS was mentioned "4" times
+$MSTR was mentioned "6" times
+$GME was mentioned "15" times
+$HYLD was mentioned "3" times
+$DXY was mentioned "10" times
+$DJIA was mentioned "3" times
+$ARKK was mentioned "9" times
+$SXXP was mentioned "3" times
+$GLD was mentioned "9" times
+$BTCUSD was mentioned "7" times
+$BTC.X was mentioned "3" times
+$BCOIN was mentioned "3" times
+$RUT was mentioned "10" times
+$NDX was mentioned "4" times
+$RTY was mentioned "19" times
+$SILVER was mentioned "7" times
+$GOLD was mentioned "5" times
+$GDX was mentioned "19" times
+$MSOS was mentioned "16" times
+$UVXY was mentioned "3" times
+$CSX was mentioned "3" times
+$EFX was mentioned "3" times
+$UAL was mentioned "4" times
+$TSM was mentioned "5" times
+$NKE was mentioned "4" times
+$IWM was mentioned "1" times
+$TQQQ was mentioned "1" times
+$SLV was mentioned "1" times
+$HYG was mentioned "1" times
+$SQQQ was mentioned "1" times
+$EWZ was mentioned "1" times
+$XBI was mentioned "1" times
+$EFA was mentioned "1" times
+$XLF was mentioned "1" times
+$SOXL was mentioned "1" times
+$KRE was mentioned "1" times
+$SMH was mentioned "1" times
+$XLP was mentioned "1" times
+$ARM was mentioned "1" times
+$AMC was mentioned "1" times
+$DJT was mentioned "1" times
+$BAC was mentioned "1" times
+$GOOGL was mentioned "1" times
+$ANET was mentioned "4" times
+$DKNG was mentioned "4" times
+$DUOL was mentioned "4" times
+$ESTC was mentioned "6" times
+$ETHE was mentioned "4" times
+$GBTC was mentioned "4" times
+$LLY was mentioned "6" times
+$MDB was mentioned "4" times
+$MELI was mentioned "7" times
+$OLLI was mentioned "4" times
+$PDD was mentioned "6" times
+$PINS was mentioned "4" times
+$SHOP was mentioned "4" times
+$SPOT was mentioned "4" times
+$TNA was mentioned "4" times
+$UBER was mentioned "4" times
+$VRT was mentioned "6" times
+$ADBE was mentioned "4" times
+$AEHR was mentioned "3" times
+$ACLS was mentioned "3" times
+$PERI was mentioned "3" times
+$FOUR was mentioned "3" times
+$FLNC was mentioned "3" times
+$BVHN was mentioned "3" times
+$ONON was mentioned "3" times
+$NTNX was mentioned "2" times
+Waiting for 2 minutes before starting the next session.
+
+
+$LULU was mentioned "2" times, in the last "2" minutes.
+$TSLA was mentioned "122" times, in the last "2" minutes.
+$AAPL was mentioned "91" times, in the last "2" minutes. 
+$MSFT was mentioned "38" times, in the last "2" minutes. 
+$GOOG was mentioned "26" times, in the last "2" minutes. 
+$AMZN was mentioned "63" times, in the last "2" minutes. 
+$META was mentioned "25" times, in the last "2" minutes. 
+$CEI was mentioned "3" times, in the last "2" minutes.   
+$NVDA was mentioned "104" times, in the last "2" minutes.
+$NFLX was mentioned "28" times, in the last "2" minutes. 
+$SPY was mentioned "211" times, in the last "2" minutes. 
+$VIX was mentioned "42" times, in the last "2" minutes.  
+$AMD was mentioned "28" times, in the last "2" minutes.  
+$SMCI was mentioned "8" times, in the last "2" minutes.  
+$ANF was mentioned "4" times, in the last "2" minutes.   
+$WISH was mentioned "5" times, in the last "2" minutes.  
+$SPX was mentioned "567" times, in the last "2" minutes. 
+$SIVB was mentioned "4" times, in the last "2" minutes.  
+$BTC was mentioned "7" times, in the last "2" minutes.   
+$TLT was mentioned "8" times, in the last "2" minutes.   
+$QQQ was mentioned "68" times, in the last "2" minutes.  
+$ROKU was mentioned "3" times, in the last "2" minutes.  
+$PLTR was mentioned "20" times, in the last "2" minutes. 
+$SNAP was mentioned "5" times, in the last "2" minutes.  
+$BABA was mentioned "10" times, in the last "2" minutes. 
+$PYPL was mentioned "7" times, in the last "2" minutes.  
+$DIS was mentioned "4" times, in the last "2" minutes.   
+$MSTR was mentioned "6" times, in the last "2" minutes.  
+$GME was mentioned "19" times, in the last "2" minutes.  
+$HYLD was mentioned "3" times, in the last "2" minutes.  
+$DXY was mentioned "10" times, in the last "2" minutes.
+$SPXS was mentioned "1" times, in the last "2" minutes.
+$DJIA was mentioned "3" times, in the last "2" minutes.
+$ARKK was mentioned "9" times, in the last "2" minutes.
+$SXXP was mentioned "3" times, in the last "2" minutes.
+$GLD was mentioned "9" times, in the last "2" minutes.
+$BTCUSD was mentioned "7" times, in the last "2" minutes.
+$BTC.X was mentioned "3" times, in the last "2" minutes.
+$BCOIN was mentioned "3" times, in the last "2" minutes.
+$RUT was mentioned "10" times, in the last "2" minutes.
+$NDX was mentioned "48" times, in the last "2" minutes.
+$RTY was mentioned "22" times, in the last "2" minutes.
+$NIO was mentioned "11" times, in the last "2" minutes.
+$CLOV was mentioned "2" times, in the last "2" minutes.
+$ADBE was mentioned "8" times, in the last "2" minutes.
+$DDOG was mentioned "4" times, in the last "2" minutes.
+$CRSR was mentioned "4" times, in the last "2" minutes.
+$LAZR was mentioned "8" times, in the last "2" minutes.
+$CMG was mentioned "3" times, in the last "2" minutes.
+$UBER was mentioned "10" times, in the last "2" minutes.
+$EBAY was mentioned "8" times, in the last "2" minutes.
+$SHOP was mentioned "12" times, in the last "2" minutes.
+$PTON was mentioned "4" times, in the last "2" minutes.
+$TTWO was mentioned "7" times, in the last "2" minutes.
+$NKLA was mentioned "7" times, in the last "2" minutes.
+$MCD was mentioned "3" times, in the last "2" minutes.
+$DJI was mentioned "3" times, in the last "2" minutes.
+$IWM was mentioned "4" times, in the last "2" minutes.
+$MRNA was mentioned "3" times, in the last "2" minutes.
+$SILVER was mentioned "7" times, in the last "2" minutes.
+$GOLD was mentioned "5" times, in the last "2" minutes.
+$GDX was mentioned "19" times, in the last "2" minutes.
+$MSOS was mentioned "16" times, in the last "2" minutes.
+$UVXY was mentioned "3" times, in the last "2" minutes.
+$CSX was mentioned "3" times, in the last "2" minutes.
+$EFX was mentioned "3" times, in the last "2" minutes.
+$UAL was mentioned "4" times, in the last "2" minutes.
+$TSM was mentioned "5" times, in the last "2" minutes.
+$NKE was mentioned "3" times, in the last "2" minutes.
+$TQQQ was mentioned "1" times, in the last "2" minutes.
+$SLV was mentioned "1" times, in the last "2" minutes.
+$HYG was mentioned "1" times, in the last "2" minutes.
+$SQQQ was mentioned "1" times, in the last "2" minutes.
+$EWZ was mentioned "1" times, in the last "2" minutes.
+$XBI was mentioned "1" times, in the last "2" minutes.
+$EFA was mentioned "1" times, in the last "2" minutes.
+$XLF was mentioned "1" times, in the last "2" minutes.
+$SOXL was mentioned "1" times, in the last "2" minutes.
+$KRE was mentioned "1" times, in the last "2" minutes.
+$SMH was mentioned "1" times, in the last "2" minutes.
+$XLP was mentioned "1" times, in the last "2" minutes.
+$ARM was mentioned "1" times, in the last "2" minutes.
+$AMC was mentioned "1" times, in the last "2" minutes.
+$DJT was mentioned "1" times, in the last "2" minutes.
+$BAC was mentioned "1" times, in the last "2" minutes.
+$GOOGL was mentioned "1" times, in the last "2" minutes.
+$ANET was mentioned "4" times, in the last "2" minutes.
+$DKNG was mentioned "4" times, in the last "2" minutes.
+$DUOL was mentioned "4" times, in the last "2" minutes.
+$ESTC was mentioned "6" times, in the last "2" minutes.
+$ETHE was mentioned "4" times, in the last "2" minutes.
+$GBTC was mentioned "4" times, in the last "2" minutes.
+$LLY was mentioned "6" times, in the last "2" minutes.
+$MDB was mentioned "4" times, in the last "2" minutes.
+$MELI was mentioned "7" times, in the last "2" minutes.
+$OLLI was mentioned "4" times, in the last "2" minutes.
+$PDD was mentioned "6" times, in the last "2" minutes.
+$PINS was mentioned "4" times, in the last "2" minutes.
+$SPOT was mentioned "4" times, in the last "2" minutes.
+$TNA was mentioned "4" times, in the last "2" minutes.
+$VRT was mentioned "6" times, in the last "2" minutes.
+$AEHR was mentioned "3" times, in the last "2" minutes.
+$ACLS was mentioned "3" times, in the last "2" minutes.
+$PERI was mentioned "3" times, in the last "2" minutes.
+$FOUR was mentioned "3" times, in the last "2" minutes.
+$FLNC was mentioned "3" times, in the last "2" minutes.
+$BVHN was mentioned "3" times, in the last "2" minutes.
+$ONON was mentioned "3" times, in the last "2" minutes.
+$NTNX was mentioned "2" times, in the last "2" minutes.
+Waiting for 2 minutes before starting the next session.
