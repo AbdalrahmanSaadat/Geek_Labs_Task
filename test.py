@@ -25,7 +25,7 @@ driver = webdriver.Chrome(service=service)
 
 links = [
     'https://twitter.com/Mr_Derivatives',
-    # 'https://twitter.com/warrior_0719',
+    'https://twitter.com/warrior_0719',
     # 'https://twitter.com/ChartingProdigy',
     # 'https://twitter.com/allstarcharts',
     # 'https://twitter.com/yuriymatso',
@@ -36,8 +36,20 @@ links = [
     # 'https://twitter.com/RoyLMattox'
         ]
 
+# count the appearence
+symbol_counts = {}
+
 try:
     for link in links:
+        
+        
+        
+        
+        # hashing symbols store
+        unique_hashes = set()
+        position = 0
+            
+        last_scroll_height = driver.execute_script("return document.body.scrollHeight")
         try:
                 
             # adding the Links
@@ -47,16 +59,8 @@ try:
             WebDriverWait(driver, 20).until(
                 EC.presence_of_element_located((By.TAG_NAME, 'body'))
                 )
-
-            # hashing symbols store
-            unique_hashes = set()
-
-            # count the appearence
-            symbol_counts = {}
             
-            position = 0
             
-            last_scroll_height = driver.execute_script("return document.body.scrollHeight")
             
             while True:
                 # parse the page using beautifulsoup
@@ -97,9 +101,9 @@ try:
                 # If it has, update the last scroll height for the next iteration
                     last_scroll_height = new_scroll_height
                 
-
                 
-
+                
+                
         except Exception as e:
             logging.error(f'an error occured: {e}')
 
@@ -108,9 +112,10 @@ try:
 finally: 
 
 # print the output
+
     for symbol, count in symbol_counts.items():
         print(f'{symbol}: {count}')
-    # print(symbol)
+        # print(symbol)
     
     # quit the driver
     
