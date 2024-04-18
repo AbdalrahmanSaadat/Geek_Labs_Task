@@ -25,8 +25,8 @@ driver = webdriver.Chrome(service=service)
 
 links = [
     'https://twitter.com/Mr_Derivatives',
-    'https://twitter.com/warrior_0719',
-    #'https://twitter.com/ChartingProdigy',
+    #'https://twitter.com/warrior_0719',
+    # 'https://twitter.com/ChartingProdigy',
     # 'https://twitter.com/allstarcharts',
     # 'https://twitter.com/yuriymatso',
     # 'https://twitter.com/TriggerTrades',
@@ -36,13 +36,12 @@ links = [
     # 'https://twitter.com/RoyLMattox'
         ]
 
-# count the appearence
-
+output_counter = 0
 
 time_interval = 120
 try:
     while True:
-            
+        # count the appearence            
         symbol_counts = {}
         
         for link in links:
@@ -102,14 +101,20 @@ try:
                         
                         
                     
-    # print the output
-
+        # print the output
         for symbol, count in symbol_counts.items():
-            print(f'{symbol} was mentioned \"{count}\" times, in the last {time_interval // 60} minutes.')
+            
+            if output_counter != 0:
+                print(f'{symbol} was mentioned \"{count}\" times, in the last \"{time_interval // 60}\" minutes.')
+            else:
+                print(f'{symbol} was mentioned \"{count}\" times')
             # print(symbol)
         
         print(f'Waiting for {time_interval // 60} minutes before starting the next session.')
         time.sleep(time_interval)
+        
+        # increment the counter when starting a new session
+        output_counter += 1
 
 
     
