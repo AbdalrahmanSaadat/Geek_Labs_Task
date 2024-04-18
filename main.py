@@ -40,7 +40,7 @@ links = [
 # counter to change the output printed result 
 output_counter = 0
 
-#the time between each session
+#the time between each session is 2 minutes (120 seconds)
 time_interval = 120
 
 try:
