@@ -23,10 +23,24 @@ def hash_content(content, position):
 service = Service(executable_path='chromedriver.exe')
 driver = webdriver.Chrome(service=service)
 
+links = [
+    'https://twitter.com/Mr_Derivatives',
+    'https://twitter.com/warrior_0719',
+    'https://twitter.com/ChartingProdigy',
+    'https://twitter.com/allstarcharts',
+    'https://twitter.com/yuriymatso',
+    'https://twitter.com/TriggerTrades',
+    'https://twitter.com/AdamMancini4',
+    'https://twitter.com/CordovaTrades',
+    'https://twitter.com/Barchart',
+    'https://twitter.com/RoyLMattox'
+        ]
+
+
 try:
         
     # adding the Links
-    driver.get('https://twitter.com/Mr_Derivatives')
+    driver.get('https://twitter.com/warrior_0719')
 
 
     WebDriverWait(driver, 20).until(
@@ -41,7 +55,8 @@ try:
     
     position = 0
     
-
+    last_scroll_height = driver.execute_script("return document.body.scrollHeight")
+    
     while True:
         # parse the page using beautifulsoup
         soup = BeautifulSoup(driver.page_source, 'html.parser')
@@ -53,9 +68,14 @@ try:
         # Find all text matching the pattern
         symbols = soup.find_all(string=tricker)
 
+        # Scroll down function
+        # for _ in range(1): 
+        driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.PAGE_DOWN)
+    
+        time.sleep(2)
         
         for symbol in symbols:
-            symbol_string = symbol.strip('$').upper()
+            symbol_string = symbol.upper()
             position += 1
             symbol_hash = hash_content(symbol_string, position)
             
@@ -63,13 +83,19 @@ try:
                 unique_hashes.add(symbol_hash)
                 symbol_counts[symbol_string] = symbol_counts.get(symbol_string, 0) + 1
 
-            
+        driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.PAGE_DOWN)
+    
+        time.sleep(2)
         
-        # Scroll down function
-        for _ in range(1): 
-            driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.PAGE_DOWN)
-            time.sleep(1)
-            
+        new_scroll_height = driver.execute_script("return document.body.scrollHeight")
+    
+        if new_scroll_height == last_scroll_height:
+            break
+        
+        else:
+        # If it has, update the last scroll height for the next iteration
+            last_scroll_height = new_scroll_height
+        
         
 
 except Exception as e:
